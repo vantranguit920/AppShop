@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.appstore.activity.shoping">
+    <android.support.v7.widget.Toolbar
+        app:title=" Shopping"
+        app:titleTextColor="#F00"
+        android:id="@+id/toolbarfragmentdt"
+        android:background="#3a4fe7"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+
+    </android.support.v7.widget.Toolbar>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayoutsmall"
+        app:tabIndicatorColor="#f00"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="#f00"
+        app:tabTextColor="#0a0a09"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.design.widget.TabLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpagersmall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+
+</LinearLayout>
